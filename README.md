@@ -26,8 +26,8 @@ No more digging through folders — just ask and get instant answers.
 
 ## 📸 Screenshots
 
-| Chat Interface | Multiple File Support |
-| --- | --- |
+| Chat Interface |
+
 | ![Chat Screenshot](image.png) |
 
 ---
