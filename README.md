@@ -28,6 +28,6 @@ No more digging through folders — just ask and get instant answers.
 
 | Chat Interface | Multiple File Support |
 | --- | --- |
-| ![Chat Screenshot](screenshots/chat.png) | ![File Support](screenshots/files.png) |
+| ![Chat Screenshot](image.png) |
 
 ---
