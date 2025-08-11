@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "AskDrive",
+  "description": "An AI assistant for Google Drive that helps you search and understand file contents.",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab", "scripting", "tabs","identity","identity.email"],
+  "oauth2": {
+    "client_id": "543290707567-kiejv1dkvo5kgih7rhco93851g4ccr0v.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive.readonly",
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/documents.readonly"
+
+    ]
+  },
+  "host_permissions": [
+    "https://drive.google.com/*","https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "AskDrive.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://drive.google.com/drive/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "128": "AskDrive.png"
+  }
+}

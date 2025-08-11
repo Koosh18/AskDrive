@@ -1,0 +1,103 @@
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa;
+  color: #333;
+  width: 320px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Header */
+.app-header {
+  display: flex;
+  align-items: center;
+  background: #1e90ff;
+  color: white;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+/* Chatbox */
+.chatbox {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #ffffff;
+}
+
+.placeholder {
+  text-align: center;
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Chat Bubbles */
+.message {
+  max-width: 80%;
+  padding: 8px 12px;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.message.user {
+  background: #d1e7dd;
+  align-self: flex-end;
+  color: #0f5132;
+}
+
+.message.bot {
+  background: #e7f1ff;
+  align-self: flex-start;
+  color: #084298;
+}
+
+/* Input Form */
+.chat-form {
+  display: flex;
+  border-top: 1px solid #ccc;
+  background: #fff;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.chat-form button {
+  background: #1e90ff;
+  border: none;
+  padding: 0 12px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+
+.chat-form button:hover {
+  background: #0077e6;
+}
