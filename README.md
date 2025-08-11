@@ -26,8 +26,8 @@ No more digging through folders — just ask and get instant answers.
 
 ## 📸 Screenshots
 
-| Chat Interface |
+Chat Interface
 
-| ![Chat Screenshot](image.png) |
+ ![Chat Screenshot](image.png) 
 
 ---
