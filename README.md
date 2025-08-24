@@ -3,7 +3,7 @@
 **AskDrive** is a Chrome extension that lets you ask questions about your Google Drive files using AI. It works with Google Docs, Google Sheets, and `.docx` files, giving you intelligent answers instantly.  
 
 🎥 **See it in Action:**  
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Click%20Here-blue?style=for-the-badge)](https://your-demo-video-link.com)
+[Watch Demo](https://img.shields.io/badge/Watch%20Demo-Click%20Here-blue?style=for-the-badge)](https://drive.google.com/file/d/1UBiN-H2icQDclbey3URcWUp8apjaa9KR/view?usp=drive_link)
 Click the button above to watch a short demo of AskDrive in action!  
 
 ---
