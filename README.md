@@ -1,32 +1,32 @@
-# AskDrive – AI Assistant for Google Drive
+# 🚀 AskDrive – AI Assistant for Google Drive
 
-**AskDrive** is a Chrome extension that lets you ask questions about your Google Drive files using AI. It works with Google Docs, Google Sheets, and `.docx` files, giving you intelligent answers instantly.  
+**AskDrive** is a Chrome extension that lets you interact with your Google Drive files using AI. It supports Google Docs, Google Sheets, PDFs, and `.docx` files, providing instant intelligent answers to your queries.  
 
 [![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Click%20Here-blue?style=for-the-badge)](https://drive.google.com/file/d/1UBiN-H2icQDclbey3URcWUp8apjaa9KR/view?usp=sharing)
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- **AI-Powered Q&A:** Ask questions about your Google Drive documents and get smart answers.  
-- **Multi-Format Support:** Works with Google Docs, Google Sheets, and `.docx` files.  
-- **Conversation History:** Keep track of your queries and answers.  
-- **Modern UI:** Clean, responsive interface for a smooth chat experience.  
-- **Secure Google Login:** Sign in safely using your Google account.  
+- **AI-Powered Q&A** – Ask questions about your Google Drive documents and get smart answers instantly.  
+- **Multi-Format Support** – Works seamlessly with Google Docs, Google Sheets, PDFs, and `.docx` files.  
+- **Conversation History** – Keep track of all your queries and AI responses.  
+- **Modern UI** – Clean, responsive interface for smooth chat experience.  
+- **Secure Google Login** – Connect safely with your Google account.
 
 ---
 
-## 🖼️ How It Looks  
+## 🖼️ Screenshots
 
-Here are some screenshots showing AskDrive in action:  
+Take a look at AskDrive in action:
 
-| Main Chat Interface | File Selection Dropdown 
+| Main Chat Interface | File Selection Dropdown |
 |-------------------|-----------------------|
 | ![Main](images/chat_ui.png) | ![Files](images/file_dropdown.png) |
 
 ---
 
-## 🏗️ Tech Stack  
+## 🏗️ Tech Stack
 
 - **Frontend:** Chrome Extension (HTML, CSS, JS)  
 - **Backend:** Node.js + Express  
@@ -35,33 +35,33 @@ Here are some screenshots showing AskDrive in action:
 
 ---
 
-## 🔧 Quick Start  
+## ⚡ Quick Start
 
-1. **Install Extension:** Load the unpacked extension in Chrome.  
-2. **Sign In:** Click **Sign in with Google** to connect your Drive.  
-3. **Select File:** Pick a file from your Drive dropdown.  
-4. **Ask Questions:** Type your query and see AI-powered answers.  
-5. **View History:** Check previous Q&A for each file.  
-
----
-
-## 📝 Notes  
-
-- Designed for **easy, instant interaction** with your documents.  
-- Minimal setup required – just sign in and start asking.  
-- Demo videos and images give a clear idea of how the extension works.  
+1. **Install Extension** – Load the unpacked extension in Chrome.  
+2. **Sign In** – Click **Sign in with Google** to connect your Drive.  
+3. **Select File** – Pick a file from the Drive dropdown.  
+4. **Ask Questions** – Type your query and get AI-powered answers.  
+5. **View History** – Review past Q&A for each file.  
 
 ---
 
-## 🤝 Contributing  
+## 📝 Notes
+
+- Designed for **instant, hassle-free interaction** with your documents.  
+- Minimal setup – just sign in and start asking.  
+- Demo videos and screenshots give a clear idea of the user experience.
+
+---
+
+## 🤝 Contributing
 
 - Fork the repository  
-- Make your changes  
+- Make your improvements  
 - Test thoroughly  
 - Submit a pull request  
 
 ---
 
-## 📄 License  
+## 📄 License
 
-This project is licensed under the **MIT License** – see the LICENSE file for details.  
+This project is licensed under the **MIT License** – see the LICENSE file for details.
