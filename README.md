@@ -22,7 +22,7 @@ Take a look at AskDrive in action:
 
 | Main Chat Interface | File Selection Dropdown |
 |-------------------|-----------------------|
-| ![Main](chat_ui.png) | ![Files](drop_down.png) |
+| ![Main](chat_ui.jpg) | ![Files](drop_down.jpg) |
 
 ---
 
