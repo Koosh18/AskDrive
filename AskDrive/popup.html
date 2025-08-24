@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AskDrive</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="app-header">
+      <img src="AskDrive.png" alt="AskDrive Logo" class="logo" />
+      <h1>AskDrive</h1>
+    </header>
+
+    <!-- Login Section -->
+    <div id="login-section" class="login-section">
+      <button id="google-login-btn" class="google-login-btn">
+        <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google" />
+        Sign in with Google
+      </button>
+    </div>
+
+    <!-- Main App Section (hidden until login) -->
+    <div id="app-section" class="app-section" style="display: none;">
+      <!-- File Selection -->
+      <div class="file-selection">
+        <label for="file-select">Select a Drive file:</label>
+        <select id="file-select" class="file-dropdown">
+          <option value="">Choose a file...</option>
+        </select>
+      </div>
+
+      <!-- Chat History -->
+      <div class="chatbox" id="chatbox">
+        <div class="welcome-message">
+          💬 Select a file and ask me anything about its content!
+        </div>
+      </div>
+
+      <!-- Input Area -->
+      <form id="chat-form" class="chat-form">
+        <input 
+          type="text" 
+          id="user-input" 
+          placeholder="Type your question..." 
+          autocomplete="off" 
+          disabled
+        />
+        <button type="submit" title="Send" disabled>📤</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
